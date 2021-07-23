@@ -1,0 +1,89 @@
+
+header {
+    background-color: seagreen;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    background-color:seagreen;
+}
+
+.navimage {
+    width: 100px;
+    float: left;
+    padding: 20px;
+}
+
+ul {
+    background-color:seagreen;
+    list-style: none;
+    padding-bottom: 50px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    text-decoration: yellow;
+    float: right;
+    width: 75px;
+    padding: 20px
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+section {
+    background-color:yellow;
+    width:40%;
+    word-wrap: break-word;
+    border-style: double;
+    border-color: black;
+    padding-left: 15px;
+    float: left;
+    margin-bottom: 15px;
+
+}
+
+article {
+    background-color:yellow;
+    width: 40%;
+    word-wrap: break-word;
+    border-style: double;
+    border-color: black;
+    padding-left: 15px;
+    clear: left;
+    float: left;
+}
+
+aside {
+    background-color:yellow;
+    width: 40%;
+    padding-left: 15px;
+    float: right;
+    border-style: double;
+    border-color: black;
+    word-wrap: break-word;
+
+}
+
+#footer {
+    background-color: seagreen;
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+#content-wrap {
+    padding: 2.5rem;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
